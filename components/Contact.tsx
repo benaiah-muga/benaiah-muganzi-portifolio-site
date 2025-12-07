@@ -2,7 +2,7 @@ import React from 'react';
 import { Section } from './ui/Section';
 import { SOCIAL_LINKS } from '../constants';
 import { motion } from 'framer-motion';
-import { Mail, Linkedin, Github } from 'lucide-react';
+import { Mail, Linkedin, Github, Phone, MessageCircle } from 'lucide-react';
 
 export const Contact: React.FC = () => {
   return (
@@ -28,6 +28,13 @@ export const Contact: React.FC = () => {
             <Mail size={20} />
             {SOCIAL_LINKS.email}
           </a>
+          <a
+            href={`tel:${SOCIAL_LINKS.phone}`}
+            className="flex items-center gap-3 px-8 py-4 bg-primary text-white rounded-lg font-bold hover:bg-primary/90 transition-all hover:scale-105"
+          >
+            <Phone size={20} />
+            {SOCIAL_LINKS.phone}
+          </a>
           
           <div className="flex gap-4">
              <a
@@ -45,6 +52,14 @@ export const Contact: React.FC = () => {
               className="p-4 bg-surface border border-white/10 rounded-lg text-white hover:text-primary hover:border-primary transition-all"
             >
               <Github size={24} />
+            </a>
+            <a
+              href={`https://wa.me/${SOCIAL_LINKS.phone.replace('+', '')}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-4 bg-surface border border-white/10 rounded-lg text-white hover:text-primary hover:border-primary transition-all"
+            >
+              <MessageCircle size={24} />
             </a>
           </div>
         </div>

@@ -94,7 +94,7 @@ export const PROJECTS: Project[] = [
     description: "A high-end digital storefront designed to evoke the elegance of luxury fragrance. Features responsive product layouts, seamless transitions, and a refined UX that mirrors the brand's premium identity.",
     stack: ["Next.js", "AWS DynamoDB", "AWS S3", "Clerk Auth", "Vercel"],
     liveUrl: "https://oudsandwoods.vercel.app/",
-    imageUrl: "https://picsum.photos/800/600?random=1"
+    imageUrl: "/oudsandwoods.png"
   },
   {
     title: "MyGoodResume",
@@ -102,7 +102,7 @@ export const PROJECTS: Project[] = [
     description: "A full-featured AI platform for uploading, scoring, improving, and generating professional résumés. Leverages multiple LLM providers for intelligent fallback and faster responses.",
     stack: ["React", "Next.js", "Groq", "Cerebras", "Google Gemini", "OpenRouter"],
     liveUrl: "https://mygoodresume.vercel.app/",
-    imageUrl: "https://picsum.photos/800/600?random=2"
+    imageUrl: "/mygoodresume.png"
   },
   {
     title: "Chaste Technologies",
@@ -110,7 +110,7 @@ export const PROJECTS: Project[] = [
     description: "My personal venture offering high-quality web development, intelligent automation, and AI-powered solutions for businesses. Showcasing branding and early design direction.",
     stack: ["Next.js", "Tailwind CSS", "Vercel"],
     liveUrl: "https://chastetechnologies.vercel.app/",
-    imageUrl: "https://picsum.photos/800/600?random=3"
+    imageUrl: "/chastetech.png"
   },
   {
     title: "Solace",
@@ -118,7 +118,7 @@ export const PROJECTS: Project[] = [
     description: "A unique AI companion built on principles of privacy and user ownership. Features on-device processing, decentralized encrypted storage, and Web3 wallet authentication.",
     stack: ["React", "Google Gemini", "MetaMask", "Web3", "Polygon", "Decentralized Storage"],
     liveUrl: "https://solacehealth.vercel.app/",
-    imageUrl: "https://picsum.photos/800/600?random=4"
+    imageUrl: "/solace.png"
   },
   {
     title: "Aether Learn",
@@ -126,7 +126,7 @@ export const PROJECTS: Project[] = [
     description: "Transforms uploaded documents into adaptive learning experiences. Generates timed quizzes, summaries, and difficulty-adjusted questions based on user preferences.",
     stack: ["React", "Vite", "Google Gemini AI/ML"],
     liveUrl: "https://aether-learn-pi.vercel.app/",
-    imageUrl: "https://picsum.photos/800/600?random=5"
+    imageUrl: "/aetherlearn.png"
   }
 ];
 
