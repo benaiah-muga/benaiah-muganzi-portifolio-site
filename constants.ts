@@ -18,44 +18,44 @@ export const EXPERIENCES: Experience[] = [
     category: "Web Scraping & Data Automation",
     iconName: "Database",
     items: [
-      "Architected Django-based scraping pipelines using Selenium and Beautiful Soup to extract large-scale datasets, cutting processing time by 40%.",
-      "Built data cleaning workflows with Pandas and AI tools to transform messy, unstructured data into analysis-ready formats.",
-      "Designed robust storage pipelines with PostgreSQL and CSV exports for downstream analytics."
+      "Architecting Django-based scraping pipelines using Selenium and Beautiful Soup to extract large-scale datasets, cutting processing time by 40%.",
+      "Building data cleaning workflows with Pandas and AI tools to transform messy, unstructured data into analysis-ready formats.",
+      "Designing robust storage pipelines with PostgreSQL and CSV exports for downstream analytics."
     ]
   },
   {
     category: "Cloud Architecture (Google Cloud)",
     iconName: "Cloud",
     items: [
-      "Engineered production environments on Google Cloud using Cloud Storage, IAM, Cloud Functions, and Pub/Sub.",
-      "Deployed and scaled high-performance applications on Cloud Run and Compute Engine.",
-      "Led microservices migration projects using GKE and Cloud Build for continuous delivery."
+      "Engineering production environments on Google Cloud using Cloud Storage, IAM, Cloud Functions, and Pub/Sub.",
+      "Deploying and scaling high-performance applications on Cloud Run and Compute Engine.",
+      "Leading microservices migration projects using GKE and Cloud Build for continuous delivery."
     ]
   },
   {
     category: "Serverless Development (Firebase)",
     iconName: "Zap",
     items: [
-      "Built responsive serverless web applications with Firebase, reducing infrastructure overhead significantly.",
-      "Designed optimized Firestore schemas with efficient query patterns.",
-      "Implemented CI/CD pipelines and integrated voice interfaces via Google Assistant."
+      "Building responsive serverless web applications with Firebase, reducing infrastructure overhead significantly.",
+      "Designing optimized Firestore schemas with efficient query patterns.",
+      "Implementing CI/CD pipelines and integrated voice interfaces via Google Assistant."
     ]
   },
   {
     category: "Containerization & Kubernetes",
     iconName: "Container",
     items: [
-      "Created production Docker images and managed GKE clusters maintaining 100% uptime.",
-      "Streamlined deployments with kubectl and built continuous delivery pipelines."
+      "Creating production Docker images and managed GKE clusters maintaining 100% uptime.",
+      "Streamlining deployments with kubectl and built continuous delivery pipelines."
     ]
   },
   {
     category: "AI & Intelligent Systems",
     iconName: "Brain",
     items: [
-      "Developed AI chatbots integrated into client websites, boosting user engagement by 30%.",
-      "Built intelligent assistants using Llama 3, Google Gemini, RAG architectures, LlamaIndex, and LangChain.",
-      "Engineered customer support agents with retrieval-augmented generation, improving response quality by 30%."
+      "Developing AI chatbots integrated into client websites, boosting user engagement by 30%.",
+      "Building intelligent assistants using Llama 3, Google Gemini, RAG architectures, LlamaIndex, and LangChain.",
+      "Engineering customer support agents with retrieval-augmented generation, improving response quality by 30%."
     ]
   }
 ];
