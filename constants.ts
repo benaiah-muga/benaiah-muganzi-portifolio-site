@@ -3,7 +3,7 @@ import { Experience, Project, SkillCategory, Certification } from './types';
 export const HERO_DATA = {
   name: "Benaiah Muganzi",
   title: "Software Developer · Cloud Architect · AI Builder",
-  tagline: "I turn complex ideas into clean, scalable software that actually ships."
+  tagline: "I transform complex ideas into clean, scalable software, ensuring it always ships."
 };
 
 export const ABOUT_DATA = {
