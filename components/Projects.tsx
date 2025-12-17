@@ -29,18 +29,25 @@ export const Projects: React.FC = () => {
             {/* Project Image */}
             <div className="w-full lg:w-3/5 group">
               <div className="relative overflow-hidden rounded-2xl border border-white/10 aspect-video bg-surface">
-                 <div className="absolute inset-0 bg-primary/10 mix-blend-overlay z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                 <img 
-                    src={project.imageUrl} 
-                    alt={project.title}
-                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out grayscale-[20%] group-hover:grayscale-0"
-                 />
+                <div className="absolute inset-0 bg-primary/10 mix-blend-overlay z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <img
+                  src={project.imageUrl}
+                  alt={project.title}
+                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out grayscale-[20%] group-hover:grayscale-0"
+                />
               </div>
             </div>
 
             {/* Project Content */}
             <div className="w-full lg:w-2/5 flex flex-col items-start text-left">
-              <span className="text-primary font-medium tracking-wider text-sm mb-3">0{index + 1}</span>
+              <div className="flex items-center gap-3 mb-3">
+                <span className="text-primary font-medium tracking-wider text-sm">0{index + 1}</span>
+                {project.status === 'In Progress' && (
+                  <span className="px-3 py-1 rounded-full bg-yellow-500/10 text-yellow-500 text-xs font-medium border border-yellow-500/20">
+                    In Progress
+                  </span>
+                )}
+              </div>
               <h3 className="text-3xl md:text-4xl font-display font-bold text-white mb-2">
                 {project.title}
               </h3>
@@ -50,7 +57,7 @@ export const Projects: React.FC = () => {
               <p className="text-textSecondary leading-relaxed mb-8">
                 {project.description}
               </p>
-              
+
               <div className="flex flex-wrap gap-2 mb-8">
                 {project.stack.map(tech => (
                   <span key={tech} className="text-xs font-mono px-2 py-1 rounded bg-white/5 text-textSecondary border border-white/5">
@@ -60,13 +67,13 @@ export const Projects: React.FC = () => {
               </div>
 
               <div className="flex gap-4">
-                <a 
-                    href={project.liveUrl} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-6 py-3 bg-white text-black rounded-lg font-medium hover:bg-gray-200 transition-colors"
+                <a
+                  href={project.liveUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 px-6 py-3 bg-white text-black rounded-lg font-medium hover:bg-gray-200 transition-colors"
                 >
-                    View Live <ExternalLink size={16} />
+                  View Live <ExternalLink size={16} />
                 </a>
               </div>
             </div>

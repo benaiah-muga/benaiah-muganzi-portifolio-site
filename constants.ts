@@ -107,7 +107,8 @@ export const PROJECTS: Project[] = [
     description: "A full-featured AI platform for uploading, scoring, improving, and generating professional résumés. Leverages multiple LLM providers for intelligent fallback and faster responses.",
     stack: ["React", "Next.js", "Groq", "Cerebras", "Google Gemini", "OpenRouter"],
     liveUrl: "https://mygoodresume.vercel.app/",
-    imageUrl: '/mygoodresume.png'
+    imageUrl: '/mygoodresume.png',
+    status: 'In Progress'
   },
   {
     title: "Chaste Technologies",
@@ -115,7 +116,8 @@ export const PROJECTS: Project[] = [
     description: "My personal venture offering high-quality web development, intelligent automation, and AI-powered solutions for businesses. Showcasing branding and early design direction.",
     stack: ["Next.js", "Tailwind CSS", "Vercel"],
     liveUrl: "https://chastetechnologies.vercel.app/",
-    imageUrl: '/chastetech.png'
+    imageUrl: '/chastetech.png',
+    status: 'In Progress'
   },
   {
     title: "Solace",

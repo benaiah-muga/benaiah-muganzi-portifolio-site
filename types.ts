@@ -5,6 +5,7 @@ export interface Project {
   stack: string[];
   liveUrl: string;
   imageUrl: string;
+  status?: 'In Progress' | 'Completed';
 }
 
 export interface Experience {
