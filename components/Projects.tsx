@@ -27,7 +27,12 @@ export const Projects: React.FC = () => {
             className={`flex flex-col ${index % 2 === 1 ? 'lg:flex-row-reverse' : 'lg:flex-row'} gap-8 lg:gap-16 items-center`}
           >
             {/* Project Image */}
-            <div className="w-full lg:w-3/5 group">
+            <a
+              href={project.liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full lg:w-3/5 group"
+            >
               <div className="relative overflow-hidden rounded-2xl border border-white/10 aspect-video bg-surface">
                 <div className="absolute inset-0 bg-primary/10 mix-blend-overlay z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <img
@@ -36,7 +41,7 @@ export const Projects: React.FC = () => {
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out grayscale-[20%] group-hover:grayscale-0"
                 />
               </div>
-            </div>
+            </a>
 
             {/* Project Content */}
             <div className="w-full lg:w-2/5 flex flex-col items-start text-left">
