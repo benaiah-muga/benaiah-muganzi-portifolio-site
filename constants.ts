@@ -98,7 +98,7 @@ export const PROJECTS: Project[] = [
     tagline: "Luxury Perfume Web Experience",
     description: "A high-end digital storefront designed to evoke the elegance of luxury fragrance. Features responsive product layouts, seamless transitions, and a refined UX that mirrors the brand's premium identity.",
     stack: ["Next.js", "AWS DynamoDB", "AWS S3", "Clerk Auth", "Vercel"],
-    liveUrl: "https://oudsandwoods.vercel.app/",
+    liveUrl: "https://www.oudsandwoods.com",
     imageUrl: '/oudsandwoods.png'
   },
   {
