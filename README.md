@@ -1,20 +1,20 @@
-# Benaiah Muganzi — Portfolio
+# Benaiah Muganzi - Portfolio
 
 Personal portfolio website showcasing my work as a software developer, cloud architect, and AI builder.
 
 ## About Me
 
-I'm a software developer who thrives on turning ambitious ideas into real, working products. I don't just write code — I architect solutions that are clean, testable, and built to last.
+I'm a software developer who thrives on turning ambitious ideas into real, working products. I don't just write code - I architect solutions that are clean, testable, and built to last.
 
 My toolkit spans Python, Java, Django, Flask, and modern JavaScript, backed by deep experience with cloud infrastructure on Google Cloud, serverless systems with Firebase, and containerized deployments on GKE.
 
 ## What I Do
 
-- **Web Scraping & Data Automation** — Building scraping pipelines and data cleaning workflows with Django, Selenium, and Pandas.
-- **Cloud Architecture** — Engineering production environments on Google Cloud using Cloud Storage, Cloud Run, GKE, and Cloud Functions.
-- **Serverless Development** — Building responsive serverless apps with Firebase and Firestore.
-- **Containerization & Kubernetes** — Creating Docker images and managed GKE clusters for zero-downtime deployments.
-- **AI & Intelligent Systems** — Building AI chatbots, RAG architectures, and intelligent assistants with Llama 3, Google Gemini, and LangChain.
+- **Web Scraping & Data Automation** - Building scraping pipelines and data cleaning workflows with Django, Selenium, and Pandas.
+- **Cloud Architecture** - Engineering production environments on Google Cloud using Cloud Storage, Cloud Run, GKE, and Cloud Functions.
+- **Serverless Development** - Building responsive serverless apps with Firebase and Firestore.
+- **Containerization & Kubernetes** - Creating Docker images and managed GKE clusters for zero-downtime deployments.
+- **AI & Intelligent Systems** - Building AI chatbots, RAG architectures, and intelligent assistants with Llama 3, Google Gemini, and LangChain.
 
 ## Featured Projects
 
