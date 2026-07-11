@@ -134,6 +134,23 @@ export const PROJECTS: Project[] = [
     stack: ["React", "Vite", "Google Gemini AI/ML"],
     liveUrl: "https://aether-learn-pi.vercel.app/",
     imageUrl: '/aetherlearn.png'
+  },
+  {
+    title: "ChasteAI",
+    tagline: "Open-Source AI Customer Support Infrastructure",
+    description: "A self-hosted AI customer support platform with intelligent agents, multi-channel integration, document ingestion with RAG, conversation analytics, and bring-your-own LLM support via any OpenAI-compatible API.",
+    stack: ["Next.js", "TypeScript", "PostgreSQL", "tRPC", "Drizzle ORM", "Docker"],
+    liveUrl: "https://github.com/benaiah-muga/ChasteAI",
+    imageUrl: '/chasteai-dashboard.png',
+    status: 'In Progress'
+  },
+  {
+    title: "Spring Banking API",
+    tagline: "Production-Ready Banking REST API",
+    description: "A complete Spring Boot REST API for a banking system featuring JWT authentication, role-based access control, atomic financial transactions with overdraft prevention, and clean layered architecture.",
+    stack: ["Java", "Spring Boot", "Spring Security", "PostgreSQL", "JWT", "Maven"],
+    liveUrl: "https://github.com/benaiah-muga/spring-banking-api",
+    imageUrl: '/placeholder.png'
   }
 ];
 
