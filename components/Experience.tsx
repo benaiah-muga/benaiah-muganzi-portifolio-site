@@ -2,14 +2,16 @@ import React from 'react';
 import { Section } from './ui/Section';
 import { EXPERIENCES } from '../constants';
 import { motion } from 'framer-motion';
-import { Database, Cloud, Zap, Container, Brain, LucideIcon } from 'lucide-react';
+import { Database, Cloud, Zap, Container, Brain, Globe, Code, LucideIcon } from 'lucide-react';
 
 const iconMap: Record<string, LucideIcon> = {
   Database,
   Cloud,
   Zap,
   Container,
-  Brain
+  Brain,
+  Globe,
+  Code
 };
 
 export const Experience: React.FC = () => {
