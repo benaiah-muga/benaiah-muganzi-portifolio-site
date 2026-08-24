@@ -20,6 +20,24 @@ export const ABOUT_DATA = {
 
 export const EXPERIENCES: Experience[] = [
   {
+    category: "Website Development",
+    iconName: "Globe",
+    items: [
+      "Designing and building modern, responsive websites that look sharp on any device and load fast.",
+      "Creating conversion-focused marketing sites, portfolios, and landing pages with polished UX and clean visuals.",
+      "Deploying production-ready sites with SEO, performance, and accessibility best practices baked in."
+    ]
+  },
+  {
+    category: "Web Systems & App Development",
+    iconName: "Code",
+    items: [
+      "Building full-stack web applications with authentication, databases, APIs, and real business logic.",
+      "Developing scalable systems using React, Next.js, Django, and Flask, from MVP to production.",
+      "Integrating third-party services, payment systems, and AI features into complete, working products."
+    ]
+  },
+  {
     category: "Web Scraping & Data Automation",
     iconName: "Database",
     items: [
@@ -94,6 +112,14 @@ export const SKILLS: SkillCategory[] = [
 
 export const PROJECTS: Project[] = [
   {
+    title: "Soroti Eco-City",
+    tagline: "Marketing Website for a Planned Eco-City Development",
+    description: "A promotional website for Soroti Eco-City, a new planned urban development designed to attract investors and settlers. Features immersive hero visuals, sections for residences, districts, and investment opportunities, and a polished, conversion-focused design.",
+    stack: ["React", "Next.js", "Vercel"],
+    liveUrl: "https://sorotiecocityv1.vercel.app",
+    imageUrl: '/sorotiecocity.webp'
+  },
+  {
     title: "Ouds & Woods Aromas",
     tagline: "Luxury Perfume Web Experience",
     description: "A high-end digital storefront designed to evoke the elegance of luxury fragrance. Features responsive product layouts, seamless transitions, and a refined UX that mirrors the brand's premium identity.",
@@ -126,14 +152,6 @@ export const PROJECTS: Project[] = [
     stack: ["React", "Google Gemini", "MetaMask", "Web3", "Polygon", "Decentralized Storage"],
     liveUrl: "https://solacehealth.vercel.app/",
     imageUrl: '/solace.png'
-  },
-  {
-    title: "Aether Learn",
-    tagline: "AI-Driven Personalized Learning Copilot",
-    description: "Transforms uploaded documents into adaptive learning experiences. Generates timed quizzes, summaries, and difficulty-adjusted questions based on user preferences.",
-    stack: ["React", "Vite", "Google Gemini AI/ML"],
-    liveUrl: "https://aether-learn-pi.vercel.app/",
-    imageUrl: '/aetherlearn.png'
   },
   {
     title: "ChasteAI",
